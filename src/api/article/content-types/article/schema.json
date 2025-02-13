@@ -4,7 +4,7 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "article",
+    "displayName": "Article",
     "description": "Create your blog content"
   },
   "options": {
@@ -37,12 +37,6 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::author.author",
-      "inversedBy": "articles"
-    },
-    "category": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::category.category",
       "inversedBy": "articles"
     },
     "blocks": {
